@@ -1,0 +1,27 @@
+{
+    "PROJECT_NAME": "QuecPython_DTU_DEMO",
+    "PROJECT_VERSION": "1.0.0",
+    "aliyun_config":
+	{	
+		"server": "gzsi5zT5fH3.iot-as-mqtt.cn-shanghai.aliyuncs.com",
+		"DK": "dtu_device1",
+        "PK": "gzsi5zT5fH3",
+        "DS": "173f006cab770615346978583ac430c0",
+        "PS": "D07Ujh1RvKAs6KEY",
+		"burning_method": 1,
+		"keep_alive": 300,
+		"clean_session": false,
+		"qos": 1,
+        "client_id": "",
+        "subscribe": {"0": "/gzsi5zT5fH3/dtu_device1/user/get"},
+        "publish": {"0": "/gzsi5zT5fH3/dtu_device1/user/update"}
+	},
+    "UART": {
+        "port": 2,
+        "baudrate": 115200,
+        "bytesize": 8,
+        "parity": 0,
+        "stopbits": 1,
+        "flowctl": 0
+    }
+}
